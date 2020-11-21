@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans:300" rel="stylesheet">
+    <title>About Me</title>
+</head>
+<body>
+    <!--Navbar which has been retrieved from bootstrap and modified to implement the name of the current page in the left corner wrapped withing the container,-->
+    <div class="container">
+        <div class="fixed-top">
+            
+            <nav class="navbar navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">About Me</a>
+                <button class="navbar-toggler" onclick="myClick()" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" style="text-align: left; float: left; left: 20px">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </nav>
+            <div class="navbar-toggler-icon-content" id="myDropdown">
+                <a class="nav-link" href="aboutMe.html">About Me</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="contactInformation.html">Contact Information</a>
+                <a class="nav-link" href="resume.html">Resume</a>
+            </div>
+        </div>
+    </div>
+   
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="https://via.placeholder.com/200x200.png?text=200x200" class="card-img-top" alt="200x200">
+            </div>
+            <div class="card" style="width: 50rem;">
+              <div class="card-body">
+                <h5 class="card-title">Brooklyn Minor</h5>
+                <hr class="my-4">
+                <p class="card-text"> Web developer and Architectural Studies student with skills in coding and Autodesk BIM softwares. Certifications obtained from the University of Toronto in Leed Green Associate and Full Stack web development, as well as a diploma from George Brown College in Architectural Technology. Proficiency in JavaScript, CSS, HTML, and Node.js. As well as, Revit, AutoCad, InDesign, Illustrator, PhotoShoop. Fascinated by sustainable architecture and how the use of technologies can mitigate the volume of consumption and optimize a building's environment, and its occupants performance. With an aptitude in various programming languages and a passion for architectural studies, adopted with a hunger for knowledge, makes me a valuable asset to any team.</p>
+                <br />
+                <a onclick="myLinkedIn()" class="card-link" href="https://www.linkedin.com/in/brooklyn-minor-742245109/" target="blank"><i class="fab fa-linkedin"></i>  LinkedIn</a>
+                <a onclick="myGitHub()" class="card-link" href="https://github.com/brooklynminor" target="blank"><i class="fab fa-github"></i>  GitHub</a>
+              </div>
+            </div>
+        </div>
+    </div>
+
+  
+<!--footer spans the bottom of the website-->
+    <footer class="fixed-bottom">
+      <h4> +1(705)772-6735&nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp;115 Blue Jays Way, 1908S Toronto, ON M5V0N4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; brooklynminor4@gmail.com</h4>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="assets/js/aboutMe.js"></script>
+</html>

@@ -1,0 +1,136 @@
+/* the CSS attributes will allow the toggle box to be hidden until the function is selected */
+footer{
+    padding: 20px;
+    background-color:  #bdbdc2;
+    width: 100%;
+  }
+  
+  h2{
+    float: center;
+    font-family: Acumin Pro Wide light;
+    padding-top: 120px
+  }
+  
+  .card{
+    margin-top: 120px;
+    margin-left: 30px;
+    margin-bottom: 100px ;
+  }
+  
+  h4{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: semi-bold 600;
+    color:  #040627ea;
+    letter-spacing: 2px;
+  }
+  
+  img{
+    padding-top: 120px;
+  }
+
+  
+  .navbar-toggler-icon {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .navbar-toggler-icon .navbar-toggler {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar-toggler-icon-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+  }
+  
+  .navbar-toggler-icon-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .navbar-toggler-icon-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: block;
+  }
+
+
+  .experience-title{
+    text-transform: uppercase;
+    padding-top: 10px; 
+    padding-bottom: 5px; 
+    color: #027b78;
+  }
+  .experience-text{
+    padding-top: 0px; 
+    padding-bottom: 20px; 
+    color: #027b78;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  .education-title {
+    text-transform: uppercase;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #027b78;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .sub-title {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #454561;
+  }
+
+  .skill-title{
+    padding-top: 80px ;
+    padding-bottom: 10px ;
+    color: #454561;
+  }
+
+  .title{
+    font-family: 'Oswald', sans-serif;
+    color: #ffce00; 
+  }
+
+
+.sub-text{
+  color: #090d4e;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.experience-text{
+  color: #090d4e;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.resumeText {
+  margin: 80px;
+  text-align: center;
+
+}

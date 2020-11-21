@@ -1,0 +1,88 @@
+/* the CSS attributes will allow the toggle box to be hidden until the function is selected */
+footer{
+  padding: 20px;
+  background-color: #b7e3e4;;
+  width: 100%;
+}
+
+.card{
+  margin-top: 120px;
+  margin-left: 30px;
+  margin-bottom: 100px ;
+}
+.card-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  color: #f03f35;
+}
+
+
+h4{
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  color:#4b4438;
+}
+
+img{
+  padding-top: 120px;
+}
+
+p{
+
+  margin-top: 25px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #f03f35          
+}
+
+.navbar-toggler-icon {
+  float: left;
+  overflow: hidden;
+}
+
+.navbar-toggler-icon .navbar-toggler {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar-toggler-icon-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+}
+
+.navbar-toggler-icon-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.navbar-toggler-icon-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.list-group{
+  margin: 5px;
+}
+
