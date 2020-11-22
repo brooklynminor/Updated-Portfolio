@@ -13,10 +13,3 @@
           }
         }
       }
-      // functions from line 172-180 allows user to click link that will redirect them to listed page
-      function myLinkedIn() {
-    location.replace("https://www.linkedin.com/in/brooklyn-minor-742245109/")
-  }
-     function myGitHub() {
-    location.replace("https://github.com/brooklynminor")
-  }
